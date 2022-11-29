@@ -8,6 +8,10 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
@@ -163,6 +167,7 @@ header .header .burger.active span:nth-child(3) {
 
 .header-fix.fixed:hover {
   opacity: 1;
+  background-color: #000;
 }
 
 main {
@@ -317,4 +322,74 @@ main {
   /* identical to box height, or 152% */
   color: #FFFFFF;
   margin: 0 10px;
+}
+
+.love {
+  margin-top: 100px;
+  overflow: hidden;
+}
+.love h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+  /* identical to box height, or 149% */
+  text-align: center;
+  cursor: default;
+  color: #FFFFFF;
+  transition: all 0.3s;
+}
+.love h3.element-animation {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s;
+}
+.love h3.element-animation.element-show {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.love__wrap {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.3s;
+}
+.love__wrap-text .photo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.love__wrap-text .photo-text h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+  /* identical to box height, or 149% */
+  margin-left: 8px;
+  cursor: default;
+  transition: all 0.3s;
+}
+.love__wrap-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height, or 150% */
+  transition: all 0.3s;
+  cursor: default;
+  color: #707070;
+}
+.love__wrap.element-animation {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 1s;
+}
+.love__wrap.element-animation.element-show {
+  opacity: 1;
+  transform: translateX(0px);
 }/*# sourceMappingURL=style.css.map */

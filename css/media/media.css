@@ -106,12 +106,63 @@
     .turn__btn .turn-blue{
         margin-bottom: 20px;
         font-size: 15px;
+        padding: 20px 20px;
     }
     .turn__btn .turn-view{
         font-size: 15px;
+        padding: 20px 20px;
     }
     .turn__info p,
     .turn__info p span{
         font-size: 12px;
+    }
+}
+
+/* love */
+
+@media(max-width: 1261px){
+    .love h3{
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .love__wrap-text .photo-text h5 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .love__wrap-text p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+@media(max-width: 1025px){
+    .love__wrap{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .love__wrap-text p{
+        text-align: center;
+    }
+    .love__wrap-text{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 732px){
+    .love h3{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .love__wrap-text .photo-text h5 {
+        font-size: 18px;
+        line-height: 15px;
+    }
+    .love__wrap-text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media(max-width: 396px){
+    .love h3{
+        font-size: 20px;
+        line-height: 30px;
     }
 }
