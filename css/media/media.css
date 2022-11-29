@@ -1,0 +1,117 @@
+/* burger */
+@media(max-width: 723px){
+    .header__nav{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        
+        left: 0;
+        top: -200%;
+        transition: all 0.5s;
+    }
+    .header__nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header .header .burger{
+        display: block;
+    }
+    .header__nav.active{
+        top: 100px;
+        height: 100vh;
+        z-index: 100;
+        background-color: black;
+    }
+    header .header__nav ul li a{
+        padding: 20px 0px;
+    }
+}
+
+@media(max-width:479px){
+    header .header__logo a{
+        font-size: 15px;
+    }
+    header .header__log .sign-link{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    header .header__log a{
+        font-size: 12px;
+    }
+}
+
+/* audience */
+@media(max-width: 1390px){
+    .audience h1{
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .audience h2{
+        font-size: 80px;
+        line-height: 100px;
+    }
+}
+@media(max-width: 981px){
+    .audience h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .audience h2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+@media(max-width: 636px){
+    .audience h1{
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .audience h2{
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+
+/* Тюрн */
+@media(max-width: 688px){
+    .turn{
+        margin-top: 50px;
+    }
+    .turn__text h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .turn__btn{
+        flex-direction: column;
+    }
+    .turn__btn .turn-blue{
+        margin-bottom: 20px;
+    }
+    .turn__info p,
+    .turn__info p span{
+        font-size: 15px;
+    }
+}
+@media(max-width: 417px){
+    .turn__text h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .turn__btn{
+        flex-direction: column;
+    }
+    .turn__btn .turn-blue{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .turn__btn .turn-view{
+        font-size: 15px;
+    }
+    .turn__info p,
+    .turn__info p span{
+        font-size: 12px;
+    }
+}
