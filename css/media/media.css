@@ -166,3 +166,118 @@
         line-height: 30px;
     }
 }
+
+/* step */
+@media(max-width: 1261px){
+    .step__text h3{
+        font-size: 50px;
+        line-height: 80px;
+    } 
+    .step__text p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .step__text span{
+        font-size: 18px;
+    }
+}
+@media(max-width: 854px){
+   
+    .step__text p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+}
+
+@media(max-width: 732px){
+    .step__text h3{
+        font-size: 25px;
+        line-height: 40px;
+    } 
+    .step__text p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .step__text span{
+        font-size: 14px;
+    }
+    .step__text button{
+        font-size: 15px;
+        padding: 20px 25px;
+    }
+}
+@media(max-width: 454px){
+    .step__text h3{
+        font-size: 25px;
+        line-height: 40px;
+    } 
+    .step__text p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .step__text span{
+        font-size: 13px;
+    }
+    .step__text button{
+        font-size: 12px;
+        padding: 20px 25px;
+    }
+}
+
+/* hompage */
+@media(max-width: 1277px){
+    .hompage__content-left .hompage-top{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .hompage__content-left h3{
+        font-size: 50px;
+        line-height: 90px;
+    }
+    .hompage__content-left h3 span{
+        font-size: 50px;
+        line-height: 90px;
+    }
+    .hompage__content-left p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media(max-width: 1064px){
+    .hompage__content{
+        flex-direction: column;
+    }
+    .hompage__content-left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 525px){
+    .hompage__content-left .hompage-top{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .hompage__content-left h3{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .hompage__content-left h3 span{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .hompage__content-left p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .hompage__content-left .hompage-btn{
+        flex-direction: column;
+    }
+    .hompage__content-left .hompage-btn .turn-blue,
+    .hompage__content-left .hompage-btn .turn-black{
+        margin-bottom: 20px;
+        font-size: 15px;
+        padding: 12px 15px;
+    }
+}
