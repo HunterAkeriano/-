@@ -102,15 +102,18 @@
     }
     .turn__btn{
         flex-direction: column;
+        width: 100%;
     }
     .turn__btn .turn-blue{
         margin-bottom: 20px;
         font-size: 15px;
         padding: 20px 20px;
+        width: 100%;
     }
     .turn__btn .turn-view{
         font-size: 15px;
         padding: 20px 20px;
+        width: 100%;
     }
     .turn__info p,
     .turn__info p span{
@@ -222,6 +225,7 @@
     .step__text button{
         font-size: 12px;
         padding: 20px 25px;
+        width: 100%;
     }
 }
 
