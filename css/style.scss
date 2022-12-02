@@ -457,6 +457,10 @@ main{
             cursor: default;
             transition: all .3s;
         }
+        .new-title{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
         p{
             font-family: 'Poppins';
             font-style: normal;
@@ -634,6 +638,168 @@ main{
             transform: translateX(0px);
         }
     }
+}
+
+.create{
+    max-width: 1730px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+    &__content{
+       margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        &-left{
+            background: #0D0D0D;
+            padding: 33px 0px 0px 45px;
+            min-height: 580px;
+            position: relative;
+            width: 48%;
+            span{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 45px;
+                /* identical to box height, or 150% */
+                cursor: default;
+                transition: all .3s;
+
+                color: #0FC65C;
+            }
+            h3{
+                margin-top: 40px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 80px;
+                /* identical to box height, or 150% */
+                cursor: default;
+                transition: all .3s;
+
+                color: #919191;
+            }
+            p{
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 60px;
+                line-height: 80px;
+                /* identical to box height, or 150% */
+                cursor: default;
+                transition: all .3s;
+                color: #FFFFFF;
+            }
+            img{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                bottom: 0;
+
+            }
+        }
+        &-left.element-animation{
+            opacity: 0;
+            transform: translateX(-100px);
+            transition: all 1s;
+        }
+        &-left.element-animation.element-show{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        &-right{
+            background: #0D0D0D;
+            padding: 33px 0px 0px 45px;
+            min-height: 580px;
+            width: 48%;
+            span{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 45px;
+                /* identical to box height, or 150% */
+                cursor: default;
+                transition: all .3s;
+
+                color: #0FC65C;
+            }
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 80px;
+                line-height: 93px;
+                /* or 116% */
+                margin-top: 100px;
+                cursor: default;
+                transition: all .3s;
+                color: #919191;
+                span{
+                    display: block;
+                    font-weight: 700;
+                    font-size: 80px;
+                    line-height: 93px;
+                    /* or 116% */
+    
+    
+                    color: #919191;
+                }
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 80px;
+                line-height: 93px;
+                /* identical to box height, or 116% */
+
+                cursor: default;
+                transition: all .3s;
+                color: #FFFFFF;
+            }
+        }
+        &-right.element-animation{
+            opacity: 0;
+            transform: translateX(100px);
+            transition: all 1s;
+        }
+        &-right.element-animation.element-show{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    button{
+        display: block;
+        margin: 0 auto;
+        padding: 13px 22px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        /* identical to box height, or 150% */
+
+
+        color: #FFFFFF;
+        background: #326CF9;
+        border: 0;
+        border-radius: 13px;
+        margin-top: 50px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    button:hover{
+        color: #306EF7;
+        background: #ffff;
+    }
+  
+
+
+
 }
  
    
