@@ -364,3 +364,37 @@
         line-height: 40px;
     }
 }
+
+
+/* footer */
+@media(max-width: 688px){
+    .turn{
+        margin-top: 50px;
+    }
+    .turn__text h3{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .started{
+        margin-top: 150px;
+        padding-top: 250px;
+    }
+    .started .position-log{
+        top: -250px;
+    }
+    @keyframes top-bottom {
+        0%{
+            top: -250px;
+        }
+        50%{
+            top: -200px;
+        }
+        100%{
+            top: -250px;
+        }
+    }
+    .started p{
+        font-size: 15px;
+        line-height: 50px;
+    }
+}

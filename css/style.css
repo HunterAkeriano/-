@@ -818,11 +818,66 @@ main {
 
 .people.element-animation {
   opacity: 0;
-  transform: translateY(100px);
   transition: all 1s;
 }
 
 .people.element-animation.element-show {
   opacity: 1;
-  transform: translateY(0px);
+}
+
+.started {
+  margin-top: 100px;
+  padding-top: 200px;
+  position: relative;
+}
+.started h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 150px;
+  /* identical to box height, or 150% */
+  color: #FFFFFF;
+}
+.started p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 64px;
+  /* identical to box height, or 149% */
+  cursor: default;
+  transition: all 0.3s;
+  text-align: center;
+  color: #FFFFFF;
+}
+.started .position-logo {
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  margin-left: -80px;
+  -webkit-animation: top-bottom 2s linear infinite;
+          animation: top-bottom 2s linear infinite;
+}
+@-webkit-keyframes top-bottom {
+  0% {
+    top: -180px;
+  }
+  50% {
+    top: -150px;
+  }
+  100% {
+    top: -180px;
+  }
+}
+@keyframes top-bottom {
+  0% {
+    top: -180px;
+  }
+  50% {
+    top: -150px;
+  }
+  100% {
+    top: -180px;
+  }
 }/*# sourceMappingURL=style.css.map */
