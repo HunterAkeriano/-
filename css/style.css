@@ -500,7 +500,7 @@ main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 75px;
+  font-size: 60px;
   line-height: 112px;
   /* identical to box height, or 149% */
   cursor: default;
@@ -511,7 +511,7 @@ main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 75px;
+  font-size: 60px;
   line-height: 112px;
   /* identical to box height, or 149% */
   color: #3C82F4;
@@ -741,4 +741,88 @@ main {
 .create button:hover {
   color: #306EF7;
   background: white;
+}
+
+.experts {
+  max-width: 1530px;
+  padding: 0 30px;
+  margin: 0 auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.experts-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+  /* identical to box height, or 149% */
+  text-align: center;
+  color: #FFFFFF;
+  cursor: default;
+  transition: all 0.3s;
+}
+.experts .swiper-container {
+  margin-top: 100px;
+  overflow: hidden;
+}
+.experts .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.experts.element-animation {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s;
+}
+
+.experts.element-animation.element-show {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.people {
+  margin-top: 100px;
+  overflow: hidden;
+  background: url("../images/people-bgc.png") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 200px 0;
+}
+.people h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 105px;
+  /* or 150% */
+  cursor: default;
+  transition: all 0.3s;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
+  -webkit-mask-size: 200%;
+  -webkit-animation: wave 2s linear infinite;
+          animation: wave 2s linear infinite;
+  transition: all 0.3s;
+}
+@-webkit-keyframes wave {
+  from {
+    -webkit-mask-position: 100%;
+  }
+  to {
+    -webkit-mask-position: -100%;
+  }
+}
+
+.people.element-animation {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s;
+}
+
+.people.element-animation.element-show {
+  opacity: 1;
+  transform: translateY(0px);
 }/*# sourceMappingURL=style.css.map */

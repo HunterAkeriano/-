@@ -329,3 +329,38 @@
         min-height: 400px;
     }
 }
+
+
+/* swiper */
+@media (max-width: 1290px) {
+    .experts{
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 616px){
+    .experts-title{
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+/* people */
+@media(max-width: 1312px){
+    .people h4{
+        font-size: 50px;
+        line-height: 90px;
+    }
+}
+@media(max-width: 956px){
+    .people h4{
+        font-size: 30px;
+        line-height: 60px;
+    }
+}
+@media(max-width: 596px){
+    .people h4{
+        font-size: 23px;
+        line-height: 40px;
+    }
+}
