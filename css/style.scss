@@ -931,5 +931,181 @@ main{
         }
     }
 }
- 
-   
+
+
+footer{
+    margin-top: 100px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        a{
+            display: flex;
+            align-items: center;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 42px;
+            line-height: 63px;
+            /* identical to box height, or 150% */
+
+            transition: all .3s;
+            color: #FFFFFF;
+            img{
+                margin-right: 10px;
+            }
+        }
+        a:hover{
+            color: #306EF7;
+        }
+        
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        a{
+            margin: 0 20px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 42px;
+            /* identical to box height, or 150% */
+
+
+            color: #707070;
+            transition: all .3s;
+
+        }
+        a:hover{
+            color: #306EF7;
+        }
+    }
+}
+
+.slider{
+    margin-top: 100px;
+    h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 75px;
+        line-height: 112px;
+        /* identical to box height, or 149% */
+
+        cursor: default;
+        transition: all .3s;
+        color: #FFFFFF;
+        text-align: center;
+
+    }
+}
+
+
+.swiper2{
+    overflow: hidden;
+    margin-top: 100px;
+    .swiper-wrapper{
+        .swiper-slide{
+            background:  #131313;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            padding: 30px;
+            transition: all .3s;
+            h5{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 75px;
+                /* identical to box height, or 150% */
+                cursor: default;
+                transition: all .3s;
+
+            }
+            span{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 42px;
+                /* identical to box height, or 150% */
+                cursor: default;
+                transition: all .3s;
+
+                color: #B4B1B1;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 69px;
+                line-height: 104px;
+                cursor: default;
+                transition: all .3s;
+                span{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 26px;
+                    line-height: 39px;
+                }
+            }
+            .swiper-info{
+                margin-top: 70px;
+                h6{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 23px;
+                    line-height: 40px;
+                    cursor: default;
+                    transition: all .3s;
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 42px;
+                    margin-bottom: 50px;
+                }
+                span{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 36px;
+                }
+            }
+            button{
+                display: block;
+                margin: 0 auto;
+                margin-top: 100px;
+                padding: 30px 50px;
+                cursor: pointer;
+                transition: all .3s;
+                border: 1px solid #306EF7;
+                border-radius: 15px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 40px;
+                background: #131313;
+                color: #ffff;
+            }
+            button:hover{
+                background: #fff;
+                color: #306EF7;
+            }
+        }
+        .swiper-slide:hover{
+            background: #306EF7;
+        }
+    }
+}
