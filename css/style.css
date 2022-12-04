@@ -1201,4 +1201,38 @@ footer {
   text-align: center;
   cursor: default;
   transition: all 0.3s;
+}
+.content__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.content__wrap-block {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.content__wrap-block img {
+  margin-bottom: 20px;
+}
+.content__wrap-block h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  transition: all 0.3s;
+  cursor: default;
+}
+.content__wrap-block p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  /* or 148% */
+  color: #828282;
+  transition: all 0.3s;
+  cursor: default;
 }/*# sourceMappingURL=style.css.map */
