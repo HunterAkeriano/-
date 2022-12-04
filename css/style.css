@@ -1126,4 +1126,60 @@ footer {
 .text p:last-child {
   border-bottom: 1px solid #ccc;
   padding-bottom: 50px;
+}
+
+.team {
+  margin-top: 100px;
+}
+.team-subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 152% */
+  text-align: center;
+  cursor: default;
+  transition: all 0.3s;
+  color: #306EF7;
+}
+.team-title {
+  text-align: center;
+  cursor: default;
+  transition: all 0.3s;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+}
+.team__people {
+  margin-top: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.team__people img {
+  display: block;
+  margin: 0 auto;
+}
+.team__people h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 52px;
+  margin-top: 20px;
+  cursor: default;
+  transition: all 0.3s;
+  text-align: center;
+}
+.team__people p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  /* identical to box height, or 147% */
+  cursor: default;
+  transition: all 0.3s;
+  text-align: center;
+  color: #7F7F7F;
 }/*# sourceMappingURL=style.css.map */

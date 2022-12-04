@@ -554,3 +554,46 @@
         line-height: 23px;
     }
 }
+
+
+/* team */
+@media(max-width: 768px){
+    .team-subtitle{
+        font-size: 18px;
+    }
+    .team-title{
+        font-size: 50px;
+        line-height: 90px;
+    }
+    .team__people{
+        flex-direction: column;
+    }
+    .team__people-card{
+        margin-bottom: 50px;
+    }
+    .team__people h5{
+        font-size: 24px;
+    }
+    .team__people p{
+        font-size: 14px;
+    }
+    .started{
+        margin-top: 0;
+    }
+}
+@media(max-width: 492px){
+    .team-subtitle{
+        font-size: 14px;
+    }
+    .team-title{
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .team__people h5{
+        font-size: 19px;
+    }
+    .team__people p{
+        font-size: 12px;
+    }
+}
