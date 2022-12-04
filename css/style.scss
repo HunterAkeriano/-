@@ -1255,3 +1255,24 @@ footer{
         }
     }
 }
+
+.content{
+    &-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 120px;
+        line-height: 180px;
+        text-align: center;
+        cursor: default;
+        transition: all .3s;
+    }
+    &-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        cursor: default;
+        transition: all .3s;
+    }
+}
