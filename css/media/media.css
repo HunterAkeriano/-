@@ -497,3 +497,60 @@
     }
    
 }
+
+
+/* about */
+@media(max-width: 1009px){
+    .mission__text span{
+        font-size: 20px;
+    }
+    .mission__text h4{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .mission__text p{
+        font-size: 20px;
+    }
+}
+@media(max-width: 693px){
+    .mission__text span{
+        font-size: 10px;
+    }
+    .mission__text h4{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .mission__text p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+@media(max-width: 377px){
+    .mission__text span{
+        font-size: 8px;
+    }
+    .mission__text h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mission__text p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .text p{
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media(max-width: 1009px){
+    .text p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 693px){
+    .text p{
+        font-size: 15px;
+        line-height: 23px;
+    }
+}
